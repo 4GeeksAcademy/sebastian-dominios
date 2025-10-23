@@ -1,17 +1,13 @@
 
-let pronoun = ['the', 'our'];
-let adj = ['great', 'big'];
-let noun = ['jogger', 'racoon', "geeks"];
+let pronouns = ['the', 'our'];
+let adjs = ['great', 'big' ];
+let nouns = ['jogger', 'racoon', "geeks"];
 
 
-for (let i = 0; i <= pronoun.length - 1; i++) {
-
-  for (let j = 0; j <= 1; j++) {
-
-    for (let h = 0; h <= noun.length-1; h++) {
-
-      console.log(pronoun[i],adj[j],noun[h],".com");
-
+for (let i = 0; i < pronouns.length; i++) {
+  for (let j = 0; j < adjs.length; j++) {
+    for (let h = 0; h < nouns.length; h++) {
+      console.log(pronouns[i]+adjs[j]+nouns[h]+".com");
     }
   }
 }
